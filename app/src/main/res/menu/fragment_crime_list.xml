@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/new_crime"
+        android:icon="@drawable/ic_menu_add"
+        android:title="@string/new_crime"
+        app:showAsAction="ifRoom|withText"/>
+<!--
+    app:showAsAction - определяет как и когда будет виден элемент:
+        ifRoom и withText - при наличии свободного места
+        на панели приложения отображался значок и текст команды. Если на панели не
+        хватает места для текста, то отображается только значок. Если места нет ни для
+        того ни для другого, команда перемещается в дополнительное меню.
+-->
+</menu>
